@@ -1,64 +1,63 @@
 # HederaVault
-DeFi wallet BUIDL for Hedera Africa Hackathon 2025
+*A non-custodial DeFi wallet unlocking seamless Hedera-powered finance*  
 
 ---
 
 ## Overview  
-HederaVault is a decentralized wallet built for the **Hedera Africa Hackathon 2025**.  
-It solves the problem of expensive, clunky, and insecure access to digital finance across Africa by leveraging **Hedera Hashgraph**’s fast, low-cost, and eco-friendly infrastructure.  
+**HederaVault** is a decentralized wallet built for the **Hedera Africa Hackathon 2025**.  
+It solves the problem of **expensive cross-border payments** and **limited access to DeFi tools** by leveraging **Hedera Hashgraph**’s fast, low-cost, and eco-friendly infrastructure.  
 
 ---
 
 ## Problem  
-- High fees for cross-border payments  
-- Poor UX in existing crypto wallets  
-- Lack of trust + control (custodial wallets dominate)  
-- Limited access to stable DeFi tools for everyday users  
+- High fees for sending money across borders  
+- Poor user experience in existing crypto wallets  
+- Custodial wallets force users to give up control of their assets  
+- Lack of accessible DeFi solutions tailored for African users  
 
 ---
 
 ## Our Solution  
-HederaVault makes DeFi accessible by:  
-- **Multi-token support** → send, receive, and swap Hedera Token Service (HTS) assets.  
-- **Cross-border remittance** → stablecoin integration to cut down fees.  
-- **Portfolio & yield tracking** → staking and passive income dashboards.  
-- **User-friendly onboarding** → optional Web2 login + recovery features.  
+HederaVault makes DeFi simple and accessible by:  
+- **Multi-token support** → send, receive, and swap Hedera Token Service (HTS) assets  
+- **Cross-border remittance** → stablecoin integration to reduce costs  
+- **Portfolio & yield tracking** → staking and passive income dashboards  
+- **User-friendly onboarding** → optional Web2 login and recovery for new users  
 
 ---
 
-## Tech Stack  
+## Tech Stack (Planned)  
 - **Frontend:** React + Tailwind  
 - **Backend:** Node.js / Express  
 - **Blockchain:** Hedera Hashgraph (HTS + HCS)  
 - **Wallet SDKs:** HashConnect, Hedera JS SDK  
-- **Database:** Firebase (optional, for user settings)  
+- **Database (optional):** Firebase (for non-sensitive user settings)  
 
 ---
 
-## Architecture (Conceptual)  
-1. Users interact via a React frontend.  
-2. Wallet connects to Hedera through **HashConnect**.  
-3. Transactions (HTS token swaps, transfers) validated on Hedera.  
-4. Optional Firebase backend stores non-sensitive user prefs.  
-
+## Repo Structure (Planned)
+hederavault/
+│
+├── frontend/       # React app (UI for the wallet)
+├── backend/        # Node.js services (if needed)
+├── docs/           # Documentation, pitch, diagrams
+└── README.md       # You are here
 ---
 
-## 🎥 Demo Video  
-👉 *Coming soon — will be added before Sept 30, 2025 submission deadline.*  
+## Demo Video  
+Coming soon — will be added before **Sept 30, 2025** submission deadline.  
 
----
-
-## 📂 Repo Structure (planned)
 ---
 
 ## Team  
-- **Kelvin** – Lead Developer / Hacker  
+- **Kelvin (moneyMANg)** – Lead Developer / Hacker  
 
 ---
 
 ## Hackathon Info  
 This project is built for the **Hedera Africa Hackathon 2025**.  
-Submission deadline: **Sept 30, 2025**.  
+- Website: [hedera-hackathon.hashgraph.swiss](https://hedera-hackathon.hashgraph.swiss)  
+- Submission deadline: **Sept 30, 2025**  
 
 ---
 
