@@ -37,12 +37,7 @@ HederaVault makes DeFi simple and accessible by:
 
 ## Repo Structure (Planned)
 hederavault/
-│
-├── frontend/       # React app (UI for the wallet)
-├── backend/        # Node.js services (if needed)
-├── docs/           # Documentation, pitch, diagrams
-└── README.md       # You are here
----
+hederavault/ │ ├── frontend/       # React app (UI for the wallet) ├── backend/        # Node.js services (if needed) ├── docs/           # Documentation, pitch, diagrams └── README.md       # You are here
 
 ## Demo Video  
 Coming soon — will be added before **Sept 30, 2025** submission deadline.  
